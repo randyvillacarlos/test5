@@ -9,6 +9,7 @@ import {
   Platform,
   StyleSheet,
   Text,
+  TouchableOpacity,
   View
 } from 'react-native';
 
@@ -45,7 +46,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          shit me baby fuck off Welcome to React Native! Aegis!!!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js
@@ -53,6 +54,14 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>
           {instructions}
         </Text>
+      <TouchableOpacity
+        activeOpacity={0.8}
+        style={styles.button}
+      >
+        <Text style={styles.buttonText}>
+         `Hit Me` 
+        </Text>
+      </TouchableOpacity>
       </View>
     );
   }
@@ -76,4 +85,19 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
+  button: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 1,
+    paddingVertical:  9,
+    paddingHorizontal: 15,
+    overflow: "hidden",
+    backgroundColor: "blue"
+  },
+  buttonText: {
+    color: "white",
+    fontSize: 16,
+    fontWeight: "400"
+  }
 });
