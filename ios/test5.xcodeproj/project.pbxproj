@@ -1241,8 +1241,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = test5;
-				PROVISIONING_PROFILE = "9bb8eb92-a070-46f3-8bed-33a2f50f4935";
-				PROVISIONING_PROFILE_SPECIFIER = testme2;
+				PROVISIONING_PROFILE = "1339f115-25ef-4a3d-8c25-3f6e7d6b8372";
+				PROVISIONING_PROFILE_SPECIFIER = test5provision;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
